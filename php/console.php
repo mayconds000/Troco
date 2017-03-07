@@ -6,7 +6,7 @@
 
 require_once 'Troco.php';
 
-$reais = $argv[1] ?: 0;
+$reais = $argv[1] ? floatval($argv[1]) : 0;
 
 $troco = new Troco();
 
