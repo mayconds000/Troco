@@ -51,7 +51,6 @@ class Troco
            
             while ($reais >= $key )
             {
-                echo $qtdDisponivel[$key] . ' - ';
                 if ($reais >= round($key, 2) && $qtdDisponivel[$key] > 0) 
                 {
                     $qtdeNotas[$key]++;
